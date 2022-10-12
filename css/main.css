@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('../fonts/Fraunces9pt-Black.woff2') format('woff2'),
+        url('../fonts/Fraunces9pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+        url('../fonts/Barlow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+    
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.visually-hidden{
+    
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.logo-img:hover{
+    opacity: 0.8;
+}
+.nav-menu{
+    display: flex;
+   
+}
+.navbar-item{
+    padding: 40px 16px;
+  
+}
+.navbar-item:last-child{
+    padding-right: 0px;
+}
+.navbar-link{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #83888F;
+}
+.navbar-link:hover{
+    color: black;
+}
+.section-one{
+    width: 1280px;
+    background-image: url("../images/Bitmap.jpg");
+    background-repeat: no-repeat;
+    background-size: 1280px 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.section-two-box{
+    padding: 80px;
+    margin-bottom: 167px;
+    background-image: url("../images/Bitmap.png");
+    background-repeat: no-repeat;
+    background-size: 1280px , 600px;
+    border-radius: 10px;
+
+}
+
+.section-one-title{
+    width: 493px;
+}
+
+.section-one-title-text{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.section-one-text{
+    margin-top: 32px;
+    margin-bottom: 56px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.section-one-link{
+    padding: 15px 31px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #66D2CF;;
+    border-radius: 6px;
+}
+.section-one-link:hover{
+    background-color: #0E8784;
+}
+.section-two{
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    padding-left: 80px;
+}
+.section-two-menu{
+    position: absolute;
+    display: flex;
+    top: 110px;
+}
+.section-two-menu-item{
+    margin-right: 30px;
+    width: 255px;
+    top: 130px;
+}
+.section-two-menu-item:last-child{
+    margin-right: 0px;
+}
+.nameCoffe{
+    Font-family: 'Fraunces 9pt';
+    Font-style: Black;
+    Font-size: 24px;
+    Line-height: 32px;
+    text-align: center;
+}
+.coffeText{
+    Font-family: 'Barlow';
+    Font-style: 'Regular';
+    Font-size: 16px;
+    Line-height: 26px;
+    text-align: center;
+}
+.section-three-box{
+    height: 577px;
+    margin-top: 440px;
+    background-color: #282F38;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+.section-three-title{
+    Font-family: 'Fraunces 9pt';
+    Font-style: Black;
+    color: white;
+    Font-size: 40px;
+    Line-height: 48px;
+    text-align: center;
+  
+}
+.section-three-text{
+    Font-family: 'Barlow';
+    Font-style: 'Regular';
+    color: white;
+    margin: 0 auto;
+    Font-size: 16px;
+    Line-height: 26px;
+    width: 540px;
+    height: 80px;
+}
+.section-three-menu{
+    display: flex;
+}
+.section-three-menu-item{
+    width: 350px;
+    height: 382px;
+    background-color: #0E8784;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.section-three-menu-item:first-child{
+    margin-left: 30px;
+}
+.section-three-menu-item-img{
+    margin: 72px 143px -5px 136px;
+}
+.car-img{
+    margin-bottom: 20px;
+}
+.section-three-menu-item-title{
+    Font-family: 'Fraunces 9pt';
+    Font-style: Black;
+    color: white;
+    text-align: center;
+    Font-size: 24px;
+    Line-height: 32px;
+    margin-top: 56px;
+}
+.section-three-menu-item-text{
+    Font-family: 'Barlow';
+    Font-style: 'Regular';
+    color: white;
+    Font-size: 16px;
+    Line-height: 26px;
+    margin: 0 auto;
+    text-align: center;
+    width: 255px;
+}
