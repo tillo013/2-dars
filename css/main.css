@@ -245,3 +245,39 @@ ul,ol{
     text-align: center;
     width: 255px;
 }
+.section-four__box{
+    margin-top: 350px;
+}
+.section-four__title{
+    Font-family: 'Fraunces 9pt';
+    Font-style: Black;
+    Font-size: 24px;
+    Line-height: 32px;
+    color: #83888F;
+    margin-left: 70px;
+}
+.liner{
+    margin-left: 70px;
+    margin-top: 80px;
+    display: flex;
+}
+.liner__1{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #0E8784;
+    background-color: white;
+    border-radius: 50%;
+    /* margin-right: 349px; */
+}
+.liner__1:last-child{
+    margin-right: 0px;
+}
+.liner__2{
+    display: block;
+    margin-top: 13px;
+    border-bottom: 3px solid #FDD6B9;
+    width: 349px;
+    height: 3px;
+    vertical-align: middle;
+}
