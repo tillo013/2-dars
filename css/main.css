@@ -42,6 +42,10 @@ a{
 ul,ol{
     list-style: none;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 .visually-hidden{
     
         clip: rect(0 0 0 0);
@@ -280,4 +284,104 @@ ul,ol{
     width: 349px;
     height: 3px;
     vertical-align: middle;
+}
+.work-menu{
+    display: flex;
+}
+.work-menu__item{
+    width: 285px;
+    margin-right: 95px;
+    margin-top: 67px;
+}
+.work-menu__item:first-child{
+    margin-left: 30px;
+    margin-bottom: 64px;
+}
+.work-menu__item:last-child{
+    margin-right: 0px;
+}
+.work-menu__number{
+    Font-family: 'Fraunces 9pt';
+    Font-style: Black;
+    Font-size: 72px;
+    Line-height: 72px;
+    color: #FDD6B9;
+}
+.work-menu__title{
+    Font-family: 'Fraunces 9pt';
+    Font-style: Black;
+    Font-size: 32px;
+    Line-height: 36px;
+}
+.work-menu__text{
+    Font-family: 'Barlow';
+    Font-style: 'Regular';
+    Font-size: 16px;
+    Line-height: 26px;
+}
+.section-four__btn{
+    padding: 15px 31px 16px 31px;
+    margin-left: 70px;
+    /* margin-top: 64px; */
+    background-color: #0E8784;
+    color: white;
+    border-radius: 5px;
+    Font-family: 'Fraunces 9pt';
+    Font-style: Black;
+    Font-size: 18px;
+}
+.footer__box{
+    display: flex;
+    width: 1280px;
+    margin-top: 200px;
+    margin-bottom: 88px;
+    background-color: #2C343E;
+    padding: 47px 85px 40px 85px;
+}
+.footer__logo-link{
+    /* margin: 47px 102px 47px 85px; */
+    vertical-align: middle;
+}
+.footer__menu{
+    display: flex;
+    margin-top: 10px;
+    Font-family: 'Barlow';
+    Font-style: Bold;
+    Font-size: 12px;
+    Line-height: 15px;
+    Line-height: 104%;
+    margin-left: 102px;
+    padding: 0;
+    /* padding-top: -10px; */
+    /* vertical-align: middle; */
+}
+.footer__link{
+    Font-family: 'Barlow';
+    Font-style: Bold;
+    Font-size: 12px;
+    color: white;
+    opacity: 0.6;
+    font-weight: 700;
+    Line-height: 15px;
+    Line-height: 104%;
+}
+.footer__item{
+    margin-right: 33px;
+}
+.footer__item:last-child{
+    margin-right: 0px;
+    
+}
+.web-sites{
+    display: flex;
+    left: 0;
+    margin: 5px 0px 0px 369px;
+    /* padding-top: 10px; */
+    padding: 0;
+}
+.web-sites__item{
+   margin-right: 24px;
+}
+.web-sites__item:last-child{
+    margin-right: 0px;
 }
